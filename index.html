@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>VideoHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">VideoHub</div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Buscar videos">
+    <button id="searchBtn">🔍</button>
+  </div>
+
+  <div class="user-icon">👤</div>
+</header>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <a href="#">🏠 Inicio</a>
+    <a href="#">🔥 Tendencias</a>
+    <a href="#">📺 Suscripciones</a>
+    <a href="#">📚 Biblioteca</a>
+  </aside>
+
+  <main class="content" id="videoGrid">
+    <!-- Videos generados por JS -->
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
